@@ -35,6 +35,12 @@ namespace GameTicTacToe
                         Console.ForegroundColor = ConsoleColor.White;
                         break;
                     }
+
+                    if (i == 9)
+                    {
+                        Console.WriteLine($" Game is even.");
+                        Thread.Sleep(3000);
+                    }
                 }
             }
         }
