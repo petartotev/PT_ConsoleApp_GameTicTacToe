@@ -4,7 +4,7 @@
     {
         public static void SetDefaultSettings()
         {
-            Console.Title = "Ships&BoatsGame";
+            Console.Title = "TicTacToe";
             Console.ForegroundColor = ConsoleColor.White;
             Console.SetWindowSize(28, 28);
             Console.SetWindowPosition(0, 0);
