@@ -42,6 +42,17 @@ namespace GameTicTacToe
                         Thread.Sleep(3000);
                     }
                 }
+
+                Console.Write(" One more game? [Y/n]: ");
+                var input = Console.ReadKey();
+                if (input.Key != ConsoleKey.Y && input.Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine("\n Goodbye...");
+                    Thread.Sleep(3000);
+                    Environment.Exit(0);
+                }
+                Console.WriteLine("\n Let's play one more!");
+                Thread.Sleep(3000);
             }
         }
 
